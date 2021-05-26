@@ -29,4 +29,7 @@ Here's what you need :
 4. Set up your local (eg NAS) shared folder in `/etc/fstab`: replace the `//server/share/` with your suitable info
 5. Force mount the shared drive using `sudo mount -a`
 6. Check the result with `ls /mnt/music`
-7. Map the new shared folder on your Legacy device `//smbgtw/music`
+7. Reset the Samba User Password (the one you will use to log via SMBv1) : `sudo smbpasswd music`
+8. Map the new shared folder on your Legacy device `//smbgtw/music` using the following credentials
+# Username : `music`
+# Password : `<the one you provided at #7>`
