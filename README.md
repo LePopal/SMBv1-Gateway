@@ -31,5 +31,5 @@ Here's what you need :
 6. Check the result with `ls /mnt/music`
 7. Reset the Samba User Password (the one you will use to log via SMBv1) : `sudo smbpasswd music`
 8. Map the new shared folder on your Legacy device `//smbgtw/music` using the following credentials
-# Username : `music`
-# Password : `<the one you provided at #7>`
+* Username : `music`
+* Password : `<the one you provided at #7>`
